@@ -24,11 +24,5 @@ export default({
             nome: 'Guilherme'
         }
     },
-    created(){
-        this.nome = 'Gui'
-    },
-    mounted() {
-        this.nome = 'Pedro'
-    },
 })
 </script>

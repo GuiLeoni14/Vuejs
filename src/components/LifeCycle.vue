@@ -9,6 +9,12 @@ export default{
         return{
             name: 'Testando'
         }
-    }
+    },
+    created(){
+        this.nome = 'Gui'
+    },
+    mounted() {
+        this.nome = 'Pedro'
+    },
 }
 </script>
