@@ -4,7 +4,7 @@
             <nav>
                 <ul>
                     <li>teste</li>
-                    <li>Teste 2</li>
+                    <li>teste 2</li>
                 </ul>
             </nav>
         </div>
