@@ -32,7 +32,6 @@ export default {
             const senha = this.senha;
             console.log('Formulario enviado')
             console.log('O nome é: ' + name + 'A senha é: ' + senha);
-
             // Ajax
         }
     },
