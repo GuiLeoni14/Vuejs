@@ -1,10 +1,11 @@
 <template>
     <div>
-        <Header/>
+        <Header :esta_logado="true" />
         <PrimeiroComponante/>
         <p>Meu nome é {{ nome }}</p>
         <LifeCycle/>
         <Form/>
+        <Pessoa/>
     </div>
 </template>
 

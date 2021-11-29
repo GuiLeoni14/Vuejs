@@ -5,6 +5,7 @@
                 <ul>
                     <li>teste</li>
                     <li>teste 2</li>
+                    <li v-if="esta_logado">Meu perfil</li>
                 </ul>
             </nav>
         </div>
@@ -13,6 +14,7 @@
 <script>
 export default {
     name: 'Header',
+    props: ['esta_logado']
 }
 </script>
 
